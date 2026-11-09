@@ -94,3 +94,27 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Candidate có vẻ hữu ích vẫn cần actor cụ thể, bằng chứng về pain và metric đo được; các con số ước lượng ban đầu cần được kiểm chứng trước khi dùng làm kết luận.
 - Phải phân biệt thời gian xác định đúng phiên bản với thời gian gom, ghép và sửa định dạng tài liệu để tránh dùng số liệu của hai công việc khác nhau cho cùng một metric.
 - Research công cụ cần chỉ ra cả giới hạn: công cụ quản lý phiên bản không tự quyết định bản nào là chính thức giữa nhiều file độc lập, và pilot vẫn cần đo việc thành viên tuân thủ quy trình chung.
+
+### DoanVanHiep-2A202603565
+
+**Phần việc phụ trách:**
+
+- **Người chính CP4 — Kiểm chứng:** Xây dựng Assumption Map (5 giả định cốt lõi) và trực tiếp phỏng vấn 2 sinh viên theo The Mom Test lấy Interview Snapshots.
+- **Người hỗ trợ:** CP3 (Hội tụ nhóm), CP4 (Research giải pháp có sẵn cùng bạn Quảng), CP5 (Quy trình trước/sau & Problem Statement v0 cùng bạn Nam), CP6 (Mức can thiệp Workflow & Quyết định Go, phạm vi nhỏ).
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đóng góp Problem Card #1 (Lọc việc từ Zalo) được nhóm đưa vào shortlist và chọn làm bài toán chung của nhóm.
+- Hoàn thành bảng Assumption Map và 2 bản ghi chép phỏng vấn sâu (Interview Snapshots) theo đúng phương pháp The Mom Test trong mục 3 `group_report.md`.
+- Đóng góp phần ranh giới an toàn (Boundary - copy paste chọn lọc, không cấp quyền đọc toàn bộ Zalo) và bước xác nhận của con người (Human-in-the-loop) trong quy trình tương lai và Problem Statement v1.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md`: Mục 2.1 (dòng pitch của Hiệp), Mục 3 (bảng Assumption Map và 2 Interview Snapshots), Mục 4 & 5 (quy trình Before/After và Boundary v0), Mục 7 (Problem Statement v1).
+- Báo cáo cá nhân: `report/individual/2A202603565_DoanVanHiep.md`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Trực tiếp làm kiểm chứng phỏng vấn người dùng thật (The Mom Test) giúp mình nhận ra điều cốt lõi: người dùng không thiếu app to-do, họ chỉ ngại khâu nhập liệu thủ công.
+- Nhờ sự phản biện sắc bén của bạn Nam và bạn Quảng, mình đã từ bỏ tư duy "cái gì cũng đòi xây Agent tự động" để chọn giải pháp Workflow có con người kiểm duyệt (HITL) vừa thực tế vừa an toàn dữ liệu.
+

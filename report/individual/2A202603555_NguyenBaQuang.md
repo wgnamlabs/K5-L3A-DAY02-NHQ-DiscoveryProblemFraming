@@ -54,8 +54,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Thời điểm / bối cảnh | Trước buổi học đầu tiên, có mục tiêu nhưng chưa biết chọn tài liệu và kiến thức tiên quyết. Phạm vi là một chủ đề. |
 | Quy trình hiện tại (3–7 bước) | Xác định mục tiêu → tìm tài liệu → đọc và đối chiếu → sắp xếp thứ tự → chốt kế hoạch. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: đọc lướt, so sánh độ phù hợp và nội dung trùng giữa nhiều tài liệu — tạm tính 60 phút/lần. |
-| Impact (nếu không giải thì sao) | Mất 2–3 tiếng chuẩn bị mỗi lần theo CP1, làm chậm thời điểm bắt đầu học; có nguy cơ chọn tài liệu quá khó hoặc học trùng. |
-| Success metric (baseline → target) | Tạm lấy 150 phút/lần, nằm trong khoảng CP1 → mục tiêu ≤60 phút/lần. Bấm giờ từ lúc xác định mục tiêu đến khi chốt kế hoạch ở 3 lần chuẩn bị trước và 3 lần thử cách mới; sau buổi học đầu ghi nội dung phải đổi do thiếu kiến thức nền để kiểm tra chất lượng. |
+| Impact (nếu không giải thì sao) | Mất 2–3 tiếng, làm chậm thời điểm bắt đầu học; có nguy cơ chọn tài liệu quá khó hoặc học trùng. |
+| Success metric (baseline → target) | Tạm lấy 150 phút/lần → mục tiêu ≤60 phút/lần. Bấm giờ từ lúc xác định mục tiêu đến khi chốt kế hoạch ở 3 lần chuẩn bị trước và 3 lần thử cách mới; sau buổi học đầu ghi nội dung phải đổi do thiếu kiến thức nền để kiểm tra chất lượng. |
 | Phương án không dùng AI | Dùng một syllabus làm khung, checklist mục tiêu và kiến thức đầu vào, bảng so sánh tài liệu; nhờ người đã học kiểm tra thứ tự. |
 | Giả thuyết về AI (nếu có) | Hỗ trợ so sánh mục lục và đề xuất thứ tự từ tài liệu được cung cấp; người học kiểm tra nguồn và tự chốt. Chỉ thử khi cách không dùng AI chưa đủ. |
 | Cảm nhận nhanh | Chưa biết; thử No AI trước. |
@@ -129,17 +129,17 @@ Tổng nháp: 30 phút/báo giá khoảng 5 mã;
 ### Card muốn pitch nhất
 
 - Card số: **#1 — CP1 #2: Chuẩn bị lộ trình học.**
-- Vì sao: Đã có dấu hiệu thời gian ở CP1, dễ thu hẹp vào một chủ đề và tự ghi thời gian để kiểm chứng.
+- Vì sao: dễ thu hẹp vào một chủ đề và tự ghi thời gian để kiểm chứng.
 - Câu hỏi muốn nhóm phản biện: **Nếu dùng syllabus có sẵn và checklist đã giảm thời gian chuẩn bị, phần khó nào còn lại cần hỗ trợ thêm, và làm sao biết kế hoạch nhanh hơn vẫn phù hợp với người học?**
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Actor còn quá rộng, dễ gộp nhiều quy trình khác nhau. | Chờ học viên xác nhận. | Bản nháp thu hẹp thành sinh viên học một chủ đề, nhân viên tổng hợp việc cá nhân và sales báo giá khoảng 5 mã. |
-| Số phút chưa đo dễ bị hiểu thành bằng chứng thật, nhất là #4 và #5 vốn là gợi ý AI. | Chờ học viên xác nhận. | Gắn nhãn số tạm, phân biệt dữ liệu CP1 với ước lượng và thêm cách đo. |
-| Chỉ giảm thời gian có thể làm kế hoạch kém phù hợp, bỏ sót việc hoặc báo giá sai. | Chờ học viên xác nhận. | Thêm kiểm tra chất lượng đi cùng metric thời gian ở cả ba card. |
-| Chưa chứng minh cần AI. | Chờ học viên xác nhận. | Bổ sung phương án No AI/Rule và giữ vai trò AI ở mức giả thuyết cần kiểm chứng. |
+| Các nhóm “người tự học”, “nhân viên, quản lý” và “sales, chủ cửa hàng” bao gồm nhiều vai trò có cách làm khác nhau. | Đồng ý. Cần chọn một vai trò và một tình huống cho mỗi card. | Giới hạn ba card: sinh viên chuẩn bị học một chủ đề; nhân viên lập danh sách việc cá nhân đầu ngày từ 2–3 nguồn; sales lập một báo giá khoảng 5 mã sản phẩm có sẵn. |
+| Các mốc 150 phút/lần chuẩn bị học, 20 phút/ngày tổng hợp việc và 30 phút/báo giá chưa được bấm giờ. | Đồng ý. Đây là số ước lượng để lập bản nháp. | Ghi rõ nhãn ước lượng ở từng quy trình; bổ sung cách bấm giờ từng bước trên 3 lần chuẩn bị học, 5 ngày làm việc và 5 báo giá trước khi thử cách mới. |
+| Chỉ đo thời gian sẽ không phát hiện lộ trình thiếu kiến thức nền, danh sách bỏ sót việc đến hạn hoặc báo giá sai. | Đồng ý. Mỗi card cần kiểm tra cả thời gian và chất lượng. | Với lộ trình: ghi nội dung phải đổi do thiếu kiến thức nền sau buổi học đầu. Với danh sách việc: cuối ngày đối chiếu nguồn và đếm việc đến hạn bị bỏ sót. Với báo giá: kiểm tra từng mã, số lượng, giá và thời điểm cập nhật tồn kho trước khi gửi. |
+| Chưa so sánh với syllabus, danh sách việc tập trung và bảng tra cứu có công thức trước khi đề xuất AI. | Đồng ý. Cần thử các phương án này trước để biết bước nào còn khó. | Thêm phương án dùng syllabus và checklist cho việc học; danh sách việc trung tâm có link nguồn cho công việc đầu ngày; mẫu báo giá có công thức tra cứu và tính tiền cho sales. Chỉ cân nhắc AI nếu vẫn tốn thời gian so sánh tài liệu, đọc cập nhật dạng văn bản hoặc ghép mô tả sản phẩm với mã hàng. |
 
 ---
 

@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Trần Quang Nam | 2A202603516 | Điều phối, phụ trách candidate và Problem Statement | wgnamlabs |
-| 2 | Nguyễn Bá Quảng | 2A202603555 | Phản biện shortlist và research công cụ | (điền GitHub) |
+| 2 | Nguyễn Bá Quảng | 2A202603555 | Phản biện shortlist và research công cụ | nbquang04 |
 | 3 | Đoàn Văn Hiệp | 2A202603565 | Phụ trách kiểm chứng/phỏng vấn và research | (điền GitHub) |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
@@ -64,3 +64,33 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Một bottleneck rộng như “gom file và sửa định dạng” cần được tách khỏi bài toán hẹp hơn là “xác định đúng phiên bản”, để có metric và phạm vi pilot đo được.
 - Một quy trình No AI với nguồn tài liệu chính thức, lịch sử phiên bản và người xác nhận có thể là lựa chọn phù hợp trước khi cân nhắc Rule, Workflow hoặc Agent.
 - Khi dữ liệu còn ít, cần ghi rõ baseline, giả định, tín hiệu phản bác và ngưỡng dừng thay vì khái quát quá mức.
+
+### Nguyễn Bá Quảng-2A202603555
+
+**Phần việc phụ trách:**
+
+- CP3: phản biện shortlist; hỗ trợ Trần Quang Nam gom cluster, xây cây OST và lựa chọn candidate problem.
+- CP4: phụ trách research công cụ, có Đoàn Văn Hiệp hỗ trợ; hỗ trợ phần kiểm chứng do Hiệp phụ trách.
+- Phần chung của nhóm: hỗ trợ Trần Quang Nam ở CP5 (quy trình trước/sau, Problem Statement v0) và CP6 (so sánh mức can thiệp, Problem Statement v1); cùng nhóm thảo luận và chốt quyết định CP6.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đưa ra ba candidate: chuẩn bị lộ trình học kiến thức mới, tổng hợp công việc ưu tiên đầu ngày và tra cứu sản phẩm, giá, tồn kho để báo giá; xác định actor, bottleneck và phương án không dùng AI cho từng vấn đề.
+- Phản biện candidate tìm phiên bản tài liệu bằng câu hỏi: “Nếu sử dụng chung một file Google Docs thì vấn đề này có còn xảy ra không?”; phản biện candidate đọc bài báo bằng câu hỏi liệu đọc Abstract và Conclusion trước có đủ để đánh giá mức độ liên quan.
+- Tham gia đối chiếu shortlist theo bằng chứng và phạm vi lab; candidate tổng hợp công việc ưu tiên đầu ngày của mình đạt 27/35 điểm nhưng còn thiếu bằng chứng về pain và actor chưa đủ cụ thể.
+- Research Google Docs — Version History, Google Drive — Manage Versions và Microsoft OneDrive — Version History; tổng hợp link, bước được hỗ trợ, điểm mạnh, khoảng trống và bài học trong bảng research.
+- Đóng góp kết quả research cho phần chung CP5–CP6: một nguồn tài liệu chung, liên kết cố định và quy tắc xác nhận phiên bản chính thức; hỗ trợ so sánh No AI / Rule / Workflow / Agent. Quyết định chung của nhóm là Go với pilot No AI trong 2 tuần, No-Go với việc xây hệ thống AI riêng ở giai đoạn hiện tại.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Báo cáo cá nhân: `report/individual/2A202603555_NguyenBaQuang.md`
+- Phần pitch và phản biện: mục **2.1 Pitch** (ba candidate của Quảng và câu hỏi phản biện); hỗ trợ hội tụ tại mục **2.2 Cluster**, **2.3 Opportunity Solution Tree** và **2.4 Chấm điểm shortlist**.
+- Phần research phụ trách: mục **3.3 Research giải pháp đã có** (bảng ba công cụ, link và kết luận research).
+- Phần chung CP5–CP6 có tham gia hỗ trợ: mục **4. Quy trình trước/sau**, **5. Problem Statement v0**, **6. Mức can thiệp AI**, **7. Problem Statement v1**; quyết định của cả nhóm tại mục **8. Quyết định**.
+
+**Điều mình học được từ phần nhóm:**
+
+- Cần phản biện bằng phương án đơn giản sẵn có trước khi kết luận một vấn đề cần AI; lịch sử phiên bản chỉ hữu ích khi nhóm thống nhất nguồn tài liệu và quy tắc làm việc.
+- Candidate có vẻ hữu ích vẫn cần actor cụ thể, bằng chứng về pain và metric đo được; các con số ước lượng ban đầu cần được kiểm chứng trước khi dùng làm kết luận.
+- Phải phân biệt thời gian xác định đúng phiên bản với thời gian gom, ghép và sửa định dạng tài liệu để tránh dùng số liệu của hai công việc khác nhau cho cùng một metric.
+- Research công cụ cần chỉ ra cả giới hạn: công cụ quản lý phiên bản không tự quyết định bản nào là chính thức giữa nhiều file độc lập, và pilot vẫn cần đo việc thành viên tuân thủ quy trình chung.
